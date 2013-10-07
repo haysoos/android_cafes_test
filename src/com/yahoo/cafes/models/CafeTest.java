@@ -35,10 +35,12 @@ public class CafeTest {
 			jsonArray = new JSONArray(jsonString);
 			cafe.loadLocations(jsonArray);
 			assertEquals(9, cafe.getNumberOfLocations());
+			assertEquals(9, cafe.getLocations().size());
 		} catch (JSONException e) {
 			fail("INVALID JSON ARRAY STRING\n\n" + jsonString + "\n\n" + e.getMessage());
 		} catch (IOException e) {
 			fail("INVALID JSON ARRAY STRING\n\n" + jsonString + "\n\n" + e.getMessage());
 		}
 	}
+	
 }
