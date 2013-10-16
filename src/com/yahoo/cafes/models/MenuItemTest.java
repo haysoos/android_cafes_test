@@ -204,86 +204,86 @@ public class MenuItemTest {
 	@Test
 	public final void testGetRatingImageName() {
 		menuItem.setRating(0.1423);
-		assertEquals("round-rating0-150.png", menuItem.getRatingImageName());
+		assertEquals("round_rating0_150", menuItem.getRatingImageName());
 		
 		menuItem.setRating(0.432);
-		assertEquals("round-rating05-150.png", menuItem.getRatingImageName());
+		assertEquals("round_rating05_150", menuItem.getRatingImageName());
 		
 		menuItem.setRating(0.632);
-		assertEquals("round-rating05-150.png", menuItem.getRatingImageName());
+		assertEquals("round_rating05_150", menuItem.getRatingImageName());
 		
 		menuItem.setRating(0.8432);
-		assertEquals("round-rating1-150.png", menuItem.getRatingImageName());
+		assertEquals("round_rating1_150", menuItem.getRatingImageName());
 		
 		menuItem.setRating(1.1432);
-		assertEquals("round-rating1-150.png", menuItem.getRatingImageName());
+		assertEquals("round_rating1_150", menuItem.getRatingImageName());
 		
 		menuItem.setRating(1.5);
-		assertEquals("round-rating15-150.png", menuItem.getRatingImageName());
+		assertEquals("round_rating15_150", menuItem.getRatingImageName());
 		
 		menuItem.setRating(2.0);
-		assertEquals("round-rating2-150.png", menuItem.getRatingImageName());
+		assertEquals("round_rating2_150", menuItem.getRatingImageName());
 		
 		menuItem.setRating(2.5);
-		assertEquals("round-rating25-150.png", menuItem.getRatingImageName());
+		assertEquals("round_rating25_150", menuItem.getRatingImageName());
 		
 		menuItem.setRating(3.0);
-		assertEquals("round-rating3-150.png", menuItem.getRatingImageName());
+		assertEquals("round_rating3_150", menuItem.getRatingImageName());
 		
 		menuItem.setRating(3.5);
-		assertEquals("round-rating35-150.png", menuItem.getRatingImageName());
+		assertEquals("round_rating35_150", menuItem.getRatingImageName());
 		
 		menuItem.setRating(4.0);
-		assertEquals("round-rating4-150.png", menuItem.getRatingImageName());
+		assertEquals("round_rating4_150", menuItem.getRatingImageName());
 		
 		menuItem.setRating(4.5);
-		assertEquals("round-rating45-150.png", menuItem.getRatingImageName());
+		assertEquals("round_rating45_150", menuItem.getRatingImageName());
 		
 		menuItem.setRating(5.0);
-		assertEquals("round-rating5-150.png", menuItem.getRatingImageName());
+		assertEquals("round_rating5_150", menuItem.getRatingImageName());
 		
 	}
 
 	@Test
 	public final void testGetRatingImageNameInWhite() {
 		menuItem.setRating(0.1423);
-		assertEquals("round-rating0-150-white.png", menuItem.getRatingImageNameInWhite());
+		assertEquals("round_rating0_150_white", menuItem.getRatingImageNameInWhite());
 		
 		menuItem.setRating(0.432);
-		assertEquals("round-rating05-150-white.png", menuItem.getRatingImageNameInWhite());
+		assertEquals("round_rating05_150_white", menuItem.getRatingImageNameInWhite());
 		
 		menuItem.setRating(0.632);
-		assertEquals("round-rating05-150-white.png", menuItem.getRatingImageNameInWhite());
+		assertEquals("round_rating05_150_white", menuItem.getRatingImageNameInWhite());
 		
 		menuItem.setRating(0.8432);
-		assertEquals("round-rating1-150-white.png", menuItem.getRatingImageNameInWhite());
+		assertEquals("round_rating1_150_white", menuItem.getRatingImageNameInWhite());
 		
 		menuItem.setRating(1.1432);
-		assertEquals("round-rating1-150-white.png", menuItem.getRatingImageNameInWhite());
+		assertEquals("round_rating1_150_white", menuItem.getRatingImageNameInWhite());
 		
 		menuItem.setRating(1.5);
-		assertEquals("round-rating15-150-white.png", menuItem.getRatingImageNameInWhite());
+		assertEquals("round_rating15_150_white", menuItem.getRatingImageNameInWhite());
 		
 		menuItem.setRating(2.0);
-		assertEquals("round-rating2-150-white.png", menuItem.getRatingImageNameInWhite());
+		assertEquals("round_rating2_150_white", menuItem.getRatingImageNameInWhite());
 		
 		menuItem.setRating(2.5);
-		assertEquals("round-rating25-150-white.png", menuItem.getRatingImageNameInWhite());
+		assertEquals("round_rating25_150_white", menuItem.getRatingImageNameInWhite());
 		
 		menuItem.setRating(3.0);
-		assertEquals("round-rating3-150-white.png", menuItem.getRatingImageNameInWhite());
+		assertEquals("round_rating3_150_white", menuItem.getRatingImageNameInWhite());
 		
 		menuItem.setRating(3.5);
-		assertEquals("round-rating35-150-white.png", menuItem.getRatingImageNameInWhite());
+		assertEquals("round_rating35_150_white", menuItem.getRatingImageNameInWhite());
 		
 		menuItem.setRating(4.0);
-		assertEquals("round-rating4-150-white.png", menuItem.getRatingImageNameInWhite());
+		assertEquals("round_rating4_150_white", menuItem.getRatingImageNameInWhite());
 		
 		menuItem.setRating(4.5);
-		assertEquals("round-rating45-150-white.png", menuItem.getRatingImageNameInWhite());
+		assertEquals("round_rating45_150_white", menuItem.getRatingImageNameInWhite());
 		
 		menuItem.setRating(5.0);
-		assertEquals("round-rating5-150-white.png", menuItem.getRatingImageNameInWhite());
+		assertEquals("round_rating5_150_white", menuItem.getRatingImageNameInWhite());
 	}
 
 	@Test
