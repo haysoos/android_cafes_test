@@ -8,6 +8,7 @@ import com.yahoo.cafes.models.CommentTest;
 import com.yahoo.cafes.models.LocationTest;
 import com.yahoo.cafes.models.MenuItemTest;
 import com.yahoo.cafes.models.MenuTest;
+import com.yahoo.cafes.models.UserTest;
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
@@ -15,7 +16,8 @@ import com.yahoo.cafes.models.MenuTest;
 	MenuItemTest.class,
 	MenuTest.class,
 	LocationTest.class,
-	CafeTest.class
+	CafeTest.class,
+	UserTest.class
 	})
 public class CafeTestSuite {
 
